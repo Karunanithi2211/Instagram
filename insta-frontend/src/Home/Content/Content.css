@@ -1,0 +1,234 @@
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.left-content{
+    flex: 0.7;
+}
+.right-content{
+    flex: 0.3;
+}
+
+.left-content .cards{
+    display: block;
+    width: 32vw;
+    margin: 20px 0px 0px 60px;
+    height: 98vh;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+}
+.left-content .card-top{
+    width: 100%;
+    display: flex;
+    margin: 15px 0px 15px 15px;
+    flex-direction: row;
+    align-items: center;
+}
+.left-content .card-media-img{
+    background-color: black;
+    position: relative;
+    width: 94%;
+    margin-left: 3%;
+    overflow: hidden;
+    height: 470px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-content .card-media{
+    background-color: black;
+    position: relative;
+    width: 94%;
+    margin-left: 3%;
+    overflow: hidden;
+    height: 670px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-content .card-media-img img{
+    width: 100%;
+    height: 470px;
+}
+.left-content .card-media video{
+    width: 100%;
+    height: 700px;
+}
+
+.video-controls {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+}
+  
+.video-controls svg {
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+.left-content .card-top table{
+    margin-left: 15px;
+    width: 90%;
+}
+.left-content .card-top .name-time{
+    display: flex;
+    flex-direction: row;
+}
+.left-content .card-top .name-time p{
+    margin-left: 15px;
+}
+
+.left-content .card-top table td:first-child{
+    width: 85%;    
+}
+
+.left-content .card-bottom table{
+    width: 100%;
+}
+.left-content .card-bottom .intractive-time{
+    display: flex;
+    flex-direction: row;
+}
+.left-content .card-bottom .name-time p{
+    margin-left: 15px;
+}
+
+.left-content .card-bottom table td:first-child{
+    width: 95%;    
+}
+
+
+.left-content .card-bottom{
+    display: flex;
+    margin: 15px 0px 15px 15px;
+    flex-direction: row;
+    align-items: center;
+}
+.left-content .card-bottom p{
+    font-size: 24px;
+    margin-right: 30px;
+}
+.left-content .card-bottom .right-icon{
+    margin-left: 345px;
+}
+.left-content textarea{
+    margin-top: 5px;
+    border: none;
+    border-bottom: 1px solid #d3d3d3;
+    width: 88%;
+    margin-left: 3%;
+    height: 20px;
+    outline: none;
+}
+
+
+
+.window-overlay{
+    position: fixed;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+.window-overlay .window-container{
+    display: flex;
+    padding: 10px;
+    width: 1000px;
+    height: 600px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.window-overlay .left-window-container{
+    flex: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.window-overlay .close-button{
+    position: absolute;
+    right: 100px;
+    font-size: 25px;
+    color: red;
+}
+.window-overlay .left-window-container img,.left-window-container video{
+    width: 100%;
+    background-color: black;
+    border-radius: 10px 0 0 10px;
+    height: 100%;
+}
+
+.window-overlay .right-window-container{
+    background-color: white;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    flex: 0.5;
+    width: 100%;
+}
+.window-overlay .right-window-container .window-right-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.window-overlay .right-window-container .window-right-top p{
+    margin-left: 10px;
+}
+.window-overlay .right-window-container .window-right-center{
+    padding: 15px;
+    height: 360px;
+    margin-left: 15px;
+    width: 90%;
+    overflow: scroll;
+}
+
+.window-overlay .right-window-container .window-right-bottom table{
+    width: 100%;
+}
+.window-overlay .right-window-container .window-right-bottom .intractive-time{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.window-overlay .right-window-container .window-right-bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.window-overlay .right-window-container .window-right-bottom p{
+    font-size: 24px;
+    margin-right: 10px;
+}
+.window-overlay .right-window-container textarea{
+    margin-top: 5px;
+    border: none;
+    border-bottom: 1px solid #d3d3d3;
+    width: 90%;
+    height: 20px;
+    outline: none;
+}
+.commentsection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2px;
+}

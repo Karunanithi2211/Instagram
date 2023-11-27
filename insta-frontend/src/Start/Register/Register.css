@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+.register-content-container{
+    margin-top: 20px;
+    max-width: 350px;
+    align-items: center;
+    margin-left: 36%;
+    position: relative;
+}
+.register-container .fbsign{
+    color: #737373;
+    width: 260px;
+    text-align: center;
+}
+.register-container button{
+    margin-top: 10px;
+    min-width: 265px;
+    height: 30px;
+    background-color: #0095F6;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 7px;
+}
+.register-container .icon{
+    position: relative;
+    top: 1px;
+    font-size: 20px;
+    color: white;
+}
+.register-container .icon-name{
+    position: relative;
+    top: -4px;
+    color: white;
+}
+.register-container,.loginback-container{
+    border: 1px solid #DBDBDB;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.register-container h1{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.register-container form input{
+    min-width: 260px;
+    margin-bottom: 7px;
+    height: 34px;
+    outline: none;
+    box-shadow: 0px 0px 0px .5px #DBDBDB;
+    border-radius: 2px;
+    border: none;
+    text-indent: 3px;
+    background-color: #FAFAFA;
+}
+
+.register-container form input::placeholder{
+    color: #737373;
+    font-size: 11px;
+    text-indent: 3px;
+}
+.register-container .form-para{
+    max-width: 260px;
+    font-size: 11px;
+    color: #737373;
+    text-align: center;
+}
+.register-container .form-para span{
+    color: darkblue;
+}
+.register-container form button{
+    margin-top: 10px;
+    min-width: 265px;
+    height: 30px;
+    background-color: #4CB5F9;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 7px;
+}
+.register-container form{
+    margin-bottom: 30px;
+}
+.horizontal-line{
+    content: ' ';
+    position: relative;
+    z-index: -1;
+    width: 260px;
+    height: .8px;
+    background-color: #73737349;
+}
+.register-container .or{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #737373;
+    font-size: 13px;
+    z-index: 2;
+    font-weight: bold;
+    background-color: white;
+    padding: 0px 15px;
+}
+.loginback-container{
+    padding: 15px;
+}
+
+.loginback-container .loginback a{
+    text-decoration: none;
+    color: #0095F6;
+}
+
+.number::-webkit-outer-spin-button,
+.number::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.register-container form .tick-wrong{
+    position: relative;
+    font-size: 23px;
+    left: -33px;
+    top: 7px;
+    margin-right: -33px;
+}
+
+@media screen and (max-width: 880px) {
+    
+    .register-content-container{
+        margin-top: 7%;
+        margin-left: 20%;
+    }
+}

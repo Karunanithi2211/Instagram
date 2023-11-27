@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+.image-container{
+    max-width: 350px;
+    position: relative;
+    left: 20%;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.image-container .iphone{
+    height: 95%;
+    width: 100%;
+    z-index: 1;
+}
+.image-container .inside-images{
+    position: relative;
+    top: -508px;
+    left: 65px;
+    width: 218px;
+    height: 475px;
+    z-index: -1;
+}
+.image-container .inside-images img{
+    border-radius: 15px;
+    width: 218px;
+    height: 475px;
+}
+.content-container{
+    max-width: 350px;
+    align-items: center;
+    margin-left: 50%;
+    position: relative;
+    top: -990px;
+}
+.login-container,.signup-container{
+    max-width: 100%;
+    max-height: 100%;
+    border: 1px solid #DBDBDB;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.login-container{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.login-container .icon{
+    position: relative;
+    top: 10px;
+    font-size: 30px;
+}
+.login-container h1{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.login-container form input{
+    min-width: 260px;
+    margin-bottom: 7px;
+    height: 34px;
+    outline: none;
+    box-shadow: 0px 0px 0px .5px #DBDBDB;
+    border-radius: 2px;
+    border: none;
+    text-indent: 3px;
+    background-color: #FAFAFA;
+}
+.login-container form input::placeholder{
+    color: #737373;
+    font-size: 11px;
+    text-indent: 3px;
+}
+.login-container form button{
+    margin-top: 10px;
+    min-width: 265px;
+    height: 30px;
+    background-color: #4CB5F9;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 7px;
+}
+.horizontal-line{
+    content: ' ';
+    position: relative;
+    top: 20px;
+    z-index: -1;
+    width: 100%;
+    height: .8px;
+    background-color: #73737349;
+}
+.login-container .or{
+    color: #737373;
+    font-size: 13px;
+    z-index: 2;
+    font-weight: bold;
+    position: relative;
+    top: 15px;
+    background-color: white;
+    padding: 0px 15px;
+}
+.fblogin{
+    color: #385185;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.forget-password a{
+    text-decoration: none;
+    margin-top: 0;
+    color: #385185;
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.signup-container{
+    padding: 15px;
+}
+
+.signup-container .signup a{
+    text-decoration: none;
+    color: #0095F6;
+}
+.login-verify{
+    text-align: center;
+    color: red;
+}
+
+@media screen and (max-width: 880px) {
+    
+    .image-container{
+        opacity: 0;
+    }
+    .content-container{
+        margin-top: 7%;
+        margin-left: 20%;
+    }
+}

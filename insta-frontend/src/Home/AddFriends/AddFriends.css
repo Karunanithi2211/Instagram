@@ -1,0 +1,94 @@
+.user-name{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.user-name .user-name-content,.user-all .all-user-name-content{
+    margin-left: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.user-name-content .username, .all-user-name-content .username{
+    font-size: 20px;
+}
+.user-name-content .fullname, .all-user-name-content .fullname{
+    font-size: 13px;
+    color: #565252
+}
+.user-name-content .account-switch{
+    font-size: 12px;
+    font-weight: 600;
+    color: #0095F6;
+    text-decoration: none;
+}
+
+.user-name-content table {
+    width: 100%;
+}
+.user-name-content table td:first-child{
+    width: 70%;
+}
+.user-name-content .account-switch:hover{
+    color: darkblue;
+}
+
+.all-user-name-content .follow-unfollow{
+    font-size: 12px;
+    font-weight: 600;
+    color: #0095F6;
+    background: transparent;
+    border: none;
+}
+
+.all-user-name-content table{
+    width: 90%;
+}
+.all-user-name-content table td:first-child{
+    width: 80%;
+}
+
+
+.suggestion{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+}
+.suggestion table{
+    width: 100%;
+}
+.suggestion table td:first-child{
+    width: 75%;
+}
+.suggestion .title{
+    font-size: 15px;
+    color: #565252;
+}
+.suggestion .see-all{
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    font-weight: bolder;
+}
+
+.user-all{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.add-friends-profile{
+    width: 40px;
+    height: 40px;
+}
+.add-friends-profile img{
+    width: 40px;
+    height: 40px;
+}
+
+.link-to-profile{
+    text-decoration: none;
+    color: #000;
+}

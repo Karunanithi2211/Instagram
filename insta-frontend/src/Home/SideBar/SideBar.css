@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+.side-bar{
+    flex: 0.25;
+    border: none;
+    height: 100vh;
+    margin-left: 15px;
+}
+
+
+.instagram button{
+    background: transparent;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-align: left;
+    border-radius: 5px;
+    top: 33px;
+    margin-bottom: 25px;
+}
+.instagram .icon{
+    font-size: 30px;
+    position: relative;
+    left: 5px;
+    opacity: 0;
+    top: 5px;
+}
+.instagram button span{
+    margin-left: 5px;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 30px;
+    left: -30px;
+    position: relative;
+    font-weight: 400;
+}
+
+.side-bar-content{
+    position: relative;
+}
+.side-bar-content button{
+    background: transparent;
+    position: relative;
+    width: 90%;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    border: none;
+    border-radius: 10px;
+    top: 33px;
+    margin-bottom: 17px;
+}
+.side-bar-content button a{
+    align-items: center;
+    text-decoration: none;
+    color: rgb(33, 32, 32);
+}
+.side-bar-content .icon{
+    font-size: 28px;
+    position: relative;
+    left: 5px;
+    top: 2px;
+}
+.side-bar-content .active{
+    background-color: whitesmoke;
+}
+.side-bar-content .reel{
+    border-radius: 50px;
+}
+.side-bar-content .create{
+    border-radius: 6px;
+}
+.side-bar-content span{
+    font-size: 15px;
+    position: relative;
+    top: -5px;
+    left: 25px;
+    font-weight: 400;
+}
+.side-bar-content button:hover{
+    background: whitesmoke;
+}
+  
+.search-bar {
+    position: fixed;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 84%;
+    top: 100px;
+    left: 60px;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    background-color: white;
+    border-bottom: 1px solid black;
+    z-index: 2;
+    cursor: pointer;
+}
+  
+.search-bar.open {
+    right: 0;
+    display: block;
+}
+.open span{
+    opacity: 0;
+}
+.open .icon{
+    opacity: 1;
+}
+.search-bar input{
+    width: 90%;
+    margin-left: 5%;
+    border: none;
+    outline: none;
+    height: 30px;
+    background-color: rgb(233, 232, 232);
+    text-indent: 5px;
+    border-radius: 10px;
+}
+
+.search-bar button{
+    font-size: 15px;
+    width: max-content;
+    position: relative;
+    left: -30px;
+    top: 3px;
+}
+.search-bar button:hover{
+    background-color: transparent;
+}
+
+.profile-sidebar-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profile-sidebar-container span{
+    margin-top: 6px;
+    margin-left: -10px;
+}
+
+.sidebar-profile{
+    margin-top: -3px;
+    width: 40px;
+    height: 40px;
+}
+.sidebar-profile img{
+    width: 40px;
+    height: 40px;
+}
+
+.overlay {
+    position: fixed;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+.overlay .close{
+    color: red;
+    position: fixed;
+    right: 440px;
+    margin-top: 3px;
+}
+.overlay .create-container{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+}
+.overlay .uploadmedia{
+    display: block;
+    position: relative;
+    width: max-content;
+    height: max-content;
+    border-radius: 0px;
+    color: black;
+}
+.overlay .uploadmedia span{
+    position: fixed;
+    margin-top: 10px;
+    margin-left: 180px;
+    width: max-content;
+}
+
+.overlay .uploadmedia span .square-icon{
+    width: 40px;
+    height: 40px;
+    color: gray;
+}
+
+.overlay .uploadmedia .file-input-media {
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    opacity: 0;
+    top: 0;
+    right: 0;
+}
+
+
+.overlay .create-container textarea {
+    position: fixed;
+    bottom: 120px;
+    width: 370px;
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left: 12px;
+    outline: none;
+}
+.overlay .create-container button{
+    position: fixed;
+    bottom: 80px;
+    width: 100px;
+    margin-left: 150px;
+    height: 30px;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(39, 229, 39);
+    border: none;
+    border-radius: 10px;
+}
+
+
+.search-user .search-user-name-content{
+    margin-left: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search-user{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.search-add-friends-profile{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.search-add-friends-profile img{
+    width: 40px;
+    height: 40px;
+}
+.search-user-name-content .search-username{
+    font-size: 20px;
+}
+.search-user-name-content .search-fullname{
+    font-size: 13px;
+    color: #565252
+}
+.search-user-name-content button{
+    font-size: 12px;
+    position: static;
+    font-weight: 600;
+    height: max-content;
+    color: #0095F6;
+    background: transparent;
+    border: none;
+}
+
+.search-user-name-content table{
+    width: 100%;
+}
+.search-user-name-content table td:first-child{
+    width: 60%;
+}
+
+.menu-bar {
+    position: fixed;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 5px 0px rgb(50, 50, 50);
+    width: 22%;
+    height: 24%;
+    margin-bottom: 50px;
+    left: 10px;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    background-color: white;
+    z-index: 2;
+    cursor: pointer;
+}
+  
+.menu-bar.open {
+    right: 0;
+    display: flex;
+}
+
+.menu-bar button{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
